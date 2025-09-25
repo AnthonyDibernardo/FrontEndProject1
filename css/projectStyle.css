@@ -21,13 +21,13 @@ main {
 
 .project {
     background-color: #29219B;
-    width: 50vh;
+    width: 25vw;
     border-radius: 8px;
     
 }
 
 .project img {
-    width: 50vh;
+    width: auto;
     height: 25vh;
     display: inline-block;
 }
