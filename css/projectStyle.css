@@ -1,0 +1,44 @@
+/*This sheet is for the project pages style.*/
+
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+}
+
+main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-self: center;
+    width: 80%;
+    
+
+}
+
+
+img {
+    min-width: 100px;
+    max-width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+
+
+.project {
+    background-color: #29219B;
+    width: 50vh;
+    border-radius: 8px;
+    
+}
+
+@media screen and (width >= 900px){
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}

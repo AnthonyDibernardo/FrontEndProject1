@@ -2,7 +2,8 @@
 /* Just wanted to see how this looked feel free to change it */
 /* colors I got from the color wheel are in the css folder under colors.png*/
 :root {
-    --primary-color: #0E1B43;
+    --primary-color: #339FF2;
+    --alt-color: #29219B;
     --text-color: #FFFFFF;
     color: var(--text-color);
     background-color: var(--primary-color);
