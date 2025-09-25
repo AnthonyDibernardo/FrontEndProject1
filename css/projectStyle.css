@@ -16,7 +16,6 @@ main {
     align-self: center;
     width: 80%;
     
-
 }
 
 .project {
@@ -27,7 +26,7 @@ main {
 }
 
 .project img {
-    width: auto;
+    width: 25vw;
     height: 25vh;
     display: inline-block;
 }
