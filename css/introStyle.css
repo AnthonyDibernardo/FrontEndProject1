@@ -7,38 +7,49 @@
         margin: auto;
         display: block;
     }
+    header>#info{
+        text-align: center;
+    }
     main {
         text-align: center;
     }
-    ul {
+    ul{
         display: inline-block;
         margin: auto;
         text-align: left;
+    }
+    #contact {
+        align-self: center;
     }
 }
 
 @media only screen and (min-width: 960px){
     header {
         justify-items: center;
-        width: 50%;
-        display: inline-block;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 200px 1fr;
     }
     header>img{
         justify-self: center;
         margin: auto;
-        display: block;
     }
     main {
-        display: inline-block;
+        display: grid;
+        grid-template-columns: auto auto;
         text-align: left;
         width: 50%;
     }
     
-    ul {
+    main>#skills {
         display: inline-block;
         margin: auto;
-        text-align: left;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        list-style-position: inside;
     }
+
 }
 div#contact {
     width: 350px;
