@@ -7,40 +7,51 @@
         margin: auto;
         display: block;
     }
+    header>#info{
+        text-align: center;
+    }
     main {
         text-align: center;
     }
-    ul {
+    ul{
         display: inline-block;
         margin: auto;
         text-align: left;
+    }
+    #contact {
+        align-self: center;
     }
 }
 
 @media only screen and (min-width: 960px){
     header {
         justify-items: center;
-        width: 48%;
-        display: block;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 200px 1fr;
     }
     header>img{
         justify-self: center;
         margin: auto;
-        display: block;
     }
     main {
-        display: block;
+        display: grid;
+        grid-template-columns: auto auto;
         text-align: left;
-        width: 48%;
-    }
-    div#contact {
-        width: 350px;
-        display: block;
+        width: 50%;
     }
     
-    ul {
+    main>#skills {
         display: inline-block;
         margin: auto;
-        text-align: left;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        list-style-position: inside;
     }
+
+}
+div#contact {
+    width: 350px;
+    display: block;
 }
