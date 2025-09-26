@@ -62,3 +62,7 @@
         border-radius: 10px;
     }
 }
+
+form, .contactForm {
+    justify-self: center;
+}
