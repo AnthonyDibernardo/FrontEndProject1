@@ -28,7 +28,9 @@
         justify-items: center;
         width: 100%;
         display: grid;
-        grid-template-columns: 200px 1fr;
+        grid-template-columns: 200px minmax(400px, 1fr);
+        border: 5px solid var(--alt-color);
+        border-radius: 10px;
     }
     header>img{
         justify-self: center;
@@ -36,22 +38,27 @@
     }
     main {
         display: grid;
-        grid-template-columns: auto auto;
+        gap: 0;
+        grid-template-columns: 2fr 1fr 1fr;
         text-align: left;
-        width: 50%;
+    }
+    main>#about {
+        border: 5px solid var(--alt-color);
+        border-radius: 10px;
     }
     
     main>#skills {
         display: inline-block;
-        margin: auto;
-        justify-self: center;
-        align-self: center;
-        text-align: center;
+        text-align: left;
         list-style-position: inside;
+        justify-self: center;
+        padding: 0 10%;
+        border: 5px solid var(--alt-color);
+        border-radius: 10px;
     }
 
-}
-div#contact {
-    width: 350px;
-    display: block;
+    div#contact {
+        border: 5px solid var(--alt-color);
+        border-radius: 10px;
+    }
 }

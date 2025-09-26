@@ -1,0 +1,38 @@
+body {
+    justify-self: center;
+    text-align: center;
+}
+
+img {
+    margin: 25px 10%;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+    justify-self: center;
+}
+
+form {
+    border: 2px solid var(--alt-color);
+    border-radius: 10px;
+}
+textarea {
+    vertical-align: top;
+    background-color: var(--primary-color);
+    color: var(--text-color)
+}
+button, input {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+select {
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+button:hover, select:hover{
+    color: var(--text-color);
+    background-color: var(--alt-color)
+}
+

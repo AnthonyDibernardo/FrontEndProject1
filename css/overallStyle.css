@@ -5,8 +5,11 @@
     --primary-color: #339FF2;
     --alt-color: #29219B;
     --text-color: #FFFFFF;
+    --link-color: #8F27B8;
+    --used-link-color: #0E1B43;
     color: var(--text-color);
     background-color: var(--primary-color);
+    font-family: "Open Sans", system-ui, sans-serif; 
 }
 
 img.profile {
@@ -31,7 +34,19 @@ footer {
     left: 0px;
     width: 100vw; 
     background-color: var(--alt-color);
+    color: var(--text-color);
 }
 footer>p.socials{
     display: inline-block;
+    color: var(--text-color);
+}
+a {
+   color: var(--used-link-color); 
+}
+a:hover {
+   color: var(--link-color); 
+}
+a:active{
+   background-color: var(--used-link-color); 
+   color: var(--text-color)
 }

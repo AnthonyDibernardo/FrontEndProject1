@@ -25,6 +25,24 @@
                 <li><a href="AndrewProjects.html">Andrew's Projects</a></li>
             </ul>
         </nav>
+        <h2>Contact Us</h2>
+        <p>To contact please fill out the form below</p>
+        <form action="/contactForm" method="POST">
+            <label for="name">From: </label>
+            <input type="text" name="from" id="name"> 
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"> 
+            <label for="to">To: </label>
+            <select id="to">
+                <option value="Anthony">Anthony</option>
+                <option value="Andrew">Andrew</option>
+            </select>
+            <div id="messageGroup">
+                <label for="message">Message: </label>
+                <textarea rows="5" cols="62" id="message" name="message"></textarea>
+            </div>
+            <button type="submit">submit</button>
+        </form>
         <footer>
             <p id="copyright">Copyright (c) 2025 Anthony DiBernardo, Andrew Hooker. All Rights Reserved.</p>
             <p class="socials">Anthony's Socials 
